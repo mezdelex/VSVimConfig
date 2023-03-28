@@ -1,4 +1,5 @@
 " Keymaps
+nnoremap U :vsc Edit.Redo<CR>
 nnoremap [j :vsc View.NavigateBackward<CR>
 nnoremap ]j :vsc View.NavigateForward<CR>
 vnoremap [j :vsc View.NavigateBackward<CR>
