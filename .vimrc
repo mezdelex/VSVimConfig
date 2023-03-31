@@ -2,6 +2,7 @@
 nnoremap U :vsc Edit.Redo<CR>
 nnoremap [j :vsc View.NavigateBackward<CR>
 nnoremap ]j :vsc View.NavigateForward<CR>
+nnoremap gi :vsc Edit.GoToImplementation<CR>
 vnoremap J :vsc Edit.MoveSelectedLinesDown<CR>
 vnoremap K :vsc Edit.MoveSelectedLinesUp<CR>
 vnoremap [j :vsc View.NavigateBackward<CR>
