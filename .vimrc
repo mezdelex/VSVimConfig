@@ -11,7 +11,7 @@ vnoremap ]j :vsc View.NavigateForward<CR>
 " Options
 set ignorecase
 set incsearch
-set noh
+set nohl
 set nu
 set relativenumber
 set smartcase
