@@ -1,15 +1,16 @@
 " Keymaps
-nnoremap U :vsc Edit.Redo<CR>
-nnoremap [j :vsc View.NavigateBackward<CR>
-nnoremap ]j :vsc View.NavigateForward<CR>
-nnoremap gi :vsc Edit.GoToImplementation<CR>
-nnoremap gr :vsc Edit.FindAllReferences<CR>
-vnoremap J :vsc Edit.MoveSelectedLinesDown<CR>
-vnoremap K :vsc Edit.MoveSelectedLinesUp<CR>
+nnoremap U :vsc Edit.Redo<cr>
+nnoremap [j :vsc View.NavigateBackward<cr>
+nnoremap ]j :vsc View.NavigateForward<cr>
+nnoremap gi :vsc Edit.GoToImplementation<cr>
+nnoremap gr :vsc Edit.FindAllReferences<cr>
+vnoremap J :vsc Edit.MoveSelectedLinesDown<cr>
+vnoremap K :vsc Edit.MoveSelectedLinesUp<cr>
+
 " Options
 set ignorecase
 set incsearch
-set nohl
-set nu
+set nohlsearch
+set number
 set relativenumber
 set smartcase
